@@ -1,4 +1,4 @@
-const API = "http://localhost:8080/api/scheduler/simulate";
+const API = "https://cpu-scheduling-qhxm.onrender.com/api/scheduler/simulate";
 const rows = document.querySelector("#rows"), palette = ["#5261d5","#0f9c91","#e39336","#8055bd","#d45d75","#337bb5","#738d3b"];
 let id = 1;
 function add(p={}) { const tr=document.createElement("tr"), pid=p.processId??id++;
